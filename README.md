@@ -53,7 +53,7 @@ It's not immediately obvious where the Trinity files are actually located, but w
 
 Now that we know the full path to this file, we can go back to our working directory and execute it:
 
-perl /vortexfs1/home/ctepolt/.conda/envs/trinity/opt/TRINITY_HOME/util/TrinityStats.pl Trinity.fasta
+>perl /vortexfs1/home/ctepolt/.conda/envs/trinity/opt/TRINITY_HOME/util/TrinityStats.pl Trinity.fasta
 
 Let's take a look.
 
