@@ -13,7 +13,10 @@ First, log onto Poseidon and set up a tmux window so we won't be interrupted:
 
 Navigate into your user folder for the class, and pull the "Txm-lab" Git repository:
 
->SET UP
+```
+git clone git@github.com:2019-MIT-Environmental-Bioinformatics/Lab-Assembly.git
+cd Lab-Assembly
+```
 
 Now, let's set up a conda environment to play in:
 
