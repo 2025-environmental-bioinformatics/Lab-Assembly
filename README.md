@@ -31,7 +31,7 @@ You should have pulled a folder named "Txm_assembly", which contains a sub-folde
 
 This contains one file:
 
-`SRR8956770_1_sub.fq`
+`SRR8956770_1_sub_mod.fq`
 
 This is a tiny subset of the forward reads from a 150 bp paired-end transcriptome run on the heart of an adult female red abalone (*Haliotis rufescens*).
 
@@ -45,7 +45,7 @@ Next, we run Trinity. It doesn't need a lot of parameters to run, but you can ch
 
 Here's a basic Trinity assembly command for single-end reads:
 
-`Trinity --seqType fq --max_memory 20G --single SRR8956770_1_sub.fq --CPU 2`
+`Trinity --seqType fq --max_memory 20G --single SRR8956770_1_sub_mod.fq --CPU 2`
 
 But, let's make it interesting and change a few things:
 
