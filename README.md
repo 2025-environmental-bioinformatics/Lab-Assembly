@@ -1,7 +1,7 @@
 # Today in class:
 
 1. Assembly exercise [MIT click here](https://docs.google.com/drawings/d/1e0vZkHr9MCihNQN9SQ8KAZIZmt3tF-a6vsR2Ts-5TMA/edit?usp=sharing)
-2. Assembly lecture[https://docs.google.com/presentation/d/19fLb5RsHCdPkPE5QT7y7EJNzvQ2R4d8fH94HHrAu04c/edit#slide=id.p]
+2. [Assembly lecture](https://docs.google.com/presentation/d/19fLb5RsHCdPkPE5QT7y7EJNzvQ2R4d8fH94HHrAu04c/edit#slide=id.p)
 3. Transcriptome assembly lab (below)
 4. Trimmomatic data cleaning
 
