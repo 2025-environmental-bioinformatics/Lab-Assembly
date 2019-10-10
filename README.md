@@ -1,3 +1,10 @@
+# Today in class:
+
+1. Assembly exercise [MIT click here](https://docs.google.com/drawings/d/1e0vZkHr9MCihNQN9SQ8KAZIZmt3tF-a6vsR2Ts-5TMA/edit?usp=sharing)
+2. Assembly lecture
+3. Transcriptome assembly lab
+
+
 # Lab-Assembly
 
 First, log onto Poseidon and set up a tmux window so we won't be interrupted:
