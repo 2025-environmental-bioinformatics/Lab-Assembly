@@ -21,9 +21,7 @@ cd Lab-Assembly
 Now, let's set up a conda environment to play in:
 
 ```
-conda create --name trinity
-conda activate trinity
-conda install -c bioconda trinity
+conda create --name trinity -c bioconda trinity
 ```
 
 In this lab repo, you should see the following fastq file:
