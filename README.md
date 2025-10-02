@@ -5,8 +5,9 @@
 4. Transcriptome assembly lab (below)
 5. Trimmomatic data cleaning
 
-# Lab-Assembly
+# Transcriptome Assembly Lab
 
+## Setup and installation 
 First, log onto Poseidon and set up a tmux or screen session so we won't be interrupted:
 
 `tmux new -s txm`
@@ -27,6 +28,8 @@ Now, let's set up a conda environment to play in:
 ```
 mamba create --name trinity_lab -c bioconda trinity
 ```
+
+## Assembling short read transcriptomic data (single end)
 
 In this lab repo, you should see the following fastq file:
 `SRR8956770_1_sub_mod.fq`
@@ -59,11 +62,13 @@ You should have a new directory called trinity_out_dir. Let's see what's in it.
 
 `cd trinity_out_dir`
 
-We have an assembly!
+*We have an assembly!*
 
 `Trinity.fasta`
 
 How many contigs are in it?
+
+## Assessing assembly quality and coverage
 
 Let's get to know it better, using a handy perl script included with Trinity. Since Trinity includes this script but doesn't have a built-in command to call it with, we need to run it directly with perl. First, we need to find the script....which means figuring out where our conda installation is actually saved on Poseidon.
 
@@ -97,6 +102,6 @@ We can also quickly map the reads back on the assembly and calculate how well ea
 
 You will end up with a new folder with the output name you specified. In it is a file called `quant.sf`. Use command line tools to explore it a little.
 
-EXERCISE (command line fun):
-Which contig has the highest TPM? Does it also have the highest read count?
-How many contigs have TPM < 2?
+### Exercise
+- Which contig has the highest TPM? Does it also have the highest read count?
+- How many contigs have TPM < 2?
