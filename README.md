@@ -1,9 +1,8 @@
 # Today in class:
 
-1. [Assembly lecture](https://docs.google.com/presentation/d/19fLb5RsHCdPkPE5QT7y7EJNzvQ2R4d8fH94HHrAu04c/edit#slide=id.p)
-3. [Transcriptome assembly lecture](https://docs.google.com/presentation/d/11oK2w1xru0Ih-6tta43E70rnnN49GNv-FydPjlywROk/edit)
+1. [Assembly lecture](https://docs.google.com/presentation/d/1SCaVeg7KtE3dglU_LLxc2fzCjpUSO6DRbUMwxiKuySM/edit?usp=sharing)
+3. [Transcriptome Assembly lecture](https://docs.google.com/presentation/d/1NPDXbPU_D9jMYxFqIAUBog8Ozz8jxC_ECkF1HAsixMo/edit?usp=sharing)
 4. Transcriptome assembly lab (below)
-5. Trimmomatic data cleaning
 
 # Transcriptome Assembly Lab
 
