@@ -7,21 +7,25 @@
 
 # Lab-Assembly
 
-First, log onto Poseidon and set up a tmux window so we won't be interrupted:
+First, log onto Poseidon and set up a tmux or screen session so we won't be interrupted:
 
 `tmux new -s txm`
+
+or 
+
+`screen -S txm`
 
 Navigate into your user folder for the class, and pull the "Txm-lab" Git repository:
 
 ```
-git clone git@github.com:2023-MIT-Environmental-Bioinformatics/Lab-Assembly.git
+git clone git@github.com:2025-environmental-bioinformatics/Lab-Assembly.git
 cd Lab-Assembly
 ```
 
 Now, let's set up a conda environment to play in:
 
 ```
-conda create --name trinity -c bioconda trinity
+mamba create --name trinity_lab -c bioconda trinity
 ```
 
 In this lab repo, you should see the following fastq file:
@@ -31,7 +35,7 @@ This is a tiny subset of the forward reads from a 150 bp paired-end transcriptom
 
 Let's make a *de novo* transcriptome with Trinity. First, request some space on the scavenger queue:
 
-`srun -p compute --time=00:30:00 --ntasks-per-node=2 --mem=20gb --pty bash`
+`srun -p scavenger --time=00:30:00 --ntasks-per-node=2 --mem=20gb --pty bash`
 
 Next, we run Trinity. It doesn't need a lot of parameters to run, but you can change many of the defaults as appropriate. Check these out at the Trinity wiki (https://github.com/trinityrnaseq/trinityrnaseq/wiki), or by typing:
 
